@@ -94,7 +94,7 @@ def slide_birth(driver, els, count, pos):
             pos += 1
     else:
         for i in range(abs(count)):
-            slide_vertical_2(driver, els, pos, 36, 0.3, True)
+            slide_vertical_2(driver, els, pos, 36, 0.3, False)
             # sleep(0.5)
             pos -= 1
 

@@ -138,3 +138,10 @@ def slide_and_hold(action, step: int = 5, order: bool = True, direction: bool = 
 
     # 返回值
     return result
+
+
+if __name__ == '__main__':
+    import re
+    pattern_str = '13260457290'
+    res_ = re.match('^1[36789]\d{9}$', pattern_str)
+    print(res_)
